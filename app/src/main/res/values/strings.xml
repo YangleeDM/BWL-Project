@@ -16,6 +16,9 @@
     <string name="casos_example">12202</string>
     <string name="country_example">México</string>
     <string name="icono_de_covid">Icono de covid</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="error_message">Ocurrió un error al obtener los datos</string>
+    <string name="url_last">summary</string>
 
 
 </resources>
