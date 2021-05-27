@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BWLProject</string>
+    <string name="home">Lista</string>
+    <string name="map">Mapa</string>
+    <string name="direccion">Dirección 1</string>
+    <string name="latitud">Latitud:</string>
+    <string name="longitud">Longitud:</string>
+
+
+    <!-- Algunas strings utilizadas -->
+
+    <string name="primera_vez">Esta es la primera vez que usas la aplicación</string>
+    <string name="cargar_datos">Cargar datos</string>
+    <string name="covid">Casos de Covid-19 por el mundo</string>
+    <string name="baseUrl">https://api.covid19api.com/</string>
+    <string name="casos_example">12202</string>
+    <string name="country_example">México</string>
+    <string name="icono_de_covid">Icono de covid</string>
+
+
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginHorizontal="25dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    app:cardCornerRadius="20dp"
+    card_view:cardElevation="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_height="150dp">
+
+    <RelativeLayout
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/countryItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="@string/country_example"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/countryItem"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/casesCountItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/casos_example"
+                android:textColor="@color/colorBlack"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:drawableLeftCompat="@drawable/ic_covid_left" />
+
+            <TextView
+                android:id="@+id/deathCountItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/casos_example"
+                android:textColor="@color/colorBlack"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:drawableLeftCompat="@drawable/ic_deathts_tem" />
+
+            <TextView
+                android:id="@+id/recoveredsCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/casos_example"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:drawableLeftCompat="@drawable/ic_healing_item" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
