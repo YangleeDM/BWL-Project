@@ -40,7 +40,7 @@ class CovidFragment : Fragment() {
         // Valicación por si no hay internet...
         if(!checkNetworkConnection()){
             showErrorAndOKDialog()
-            progressCovid.visibility = View.GONE
+
         }else{
             // Llamada asincróna mediante corrutinas
             CoroutineScope(Dispatchers.Main).launch {
